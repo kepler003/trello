@@ -37,4 +37,13 @@ body {
   --secondary-7: hsl(284, 90%, 30%);
   --secondary-8: hsl(284, 97%, 17%);
   --secondary-9: hsl(284, 100%, 8%);
+  --danger-1: hsl(0, 100%, 98%);
+  --danger-2: hsl(0, 90%, 93%);
+  --danger-3: hsl(0, 80%, 82%);
+  --danger-4: hsl(0, 75%, 65%);
+  --danger-5: hsl(0, 70%, 55%);
+  --danger-6: hsl(0, 75%, 39%);
+  --danger-7: hsl(0, 80%, 25%);
+  --danger-8: hsl(0, 90%, 15%);
+  --danger-9: hsl(0, 100%, 8%);
 }
