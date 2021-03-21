@@ -64,4 +64,13 @@ body {
   --warning-7: hsl(65, 100%, 17%);
   --warning-8: hsl(65, 100%, 9%);
   --warning-9: hsl(65, 100%, 4%);
+  --gray-1: hsl(0, 0%, 96%);
+  --gray-2: hsl(0, 0%, 90%);
+  --gray-3: hsl(0, 0%, 78%);
+  --gray-4: hsl(0, 0%, 62%);
+  --gray-5: hsl(0, 0%, 50%);
+  --gray-6: hsl(0, 0%, 37%);
+  --gray-7: hsl(0, 0%, 27%);
+  --gray-8: hsl(0, 0%, 16%);
+  --gray-9: hsl(0, 0%, 10%);
 }
