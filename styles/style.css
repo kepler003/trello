@@ -46,4 +46,13 @@ body {
   --danger-7: hsl(0, 80%, 25%);
   --danger-8: hsl(0, 90%, 15%);
   --danger-9: hsl(0, 100%, 8%);
+  --success-1: hsl(133, 100%, 96%);
+  --success-2: hsl(133, 90%, 90%);
+  --success-3: hsl(133, 80%, 73%);
+  --success-4: hsl(133, 70%, 56%);
+  --success-5: hsl(133, 65%, 40%);
+  --success-6: hsl(133, 75%, 26%);
+  --success-7: hsl(133, 80%, 15%);
+  --success-8: hsl(133, 90%, 9%);
+  --success-9: hsl(133, 100%, 4%);
 }
