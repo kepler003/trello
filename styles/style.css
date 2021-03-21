@@ -1,4 +1,6 @@
 
+/* Reset */
+
 *, ::before, ::after {
   margin: 0;
   padding: 0;
@@ -13,3 +15,17 @@ body {
   font-size: 1.6rem;
 }
 
+
+/* Project-related styles */
+
+:root {
+  --primary-1: hsl(202, 100%, 98%);
+  --primary-2: hsl(202, 95%, 93%);
+  --primary-3: hsl(202, 93%, 84%);
+  --primary-4: hsl(202, 91%, 68%);
+  --primary-5: hsl(202, 90%, 50%);
+  --primary-6: hsl(202, 93%, 33%);
+  --primary-7: hsl(202, 95%, 25%);
+  --primary-8: hsl(202, 92%, 16%);
+  --primary-9: hsl(202, 100%, 10%);
+}
