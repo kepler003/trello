@@ -73,4 +73,6 @@ body {
   --gray-7: hsl(0, 0%, 27%);
   --gray-8: hsl(0, 0%, 16%);
   --gray-9: hsl(0, 0%, 10%);
+  --white: hsl(0, 0%, 100%);
+  --black: hsl(0, 0%, 0%);
 }
