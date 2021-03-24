@@ -114,3 +114,19 @@ body {
   min-height: 50px;
   background-color: var(--gray-6);
 }
+
+.btn {
+  width: 40px;
+  height: 40px;
+  background-color: var(--gray-2);
+  border: none;
+  border-radius: none;
+  box-shadow: none;
+  transition: 150ms ease-in-out;
+}
+
+.btn:hover,
+.btn:focus {
+  outline: none;
+  background-color: var(--gray-3);
+}
