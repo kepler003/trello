@@ -96,6 +96,14 @@ body {
   --shadow-3: 0 5px 15px hsla(0, 0%, 0%, .2);
   --shadow-4: 0 10px 24px hsla(0, 0%, 0%, .2);
   --shadow-5: 0 15px 35px hsla(0, 0%, 0%, .2);
+  --radius-1: var(--size-1);
+  --radius-2: var(--size-2);
+  --radius-3: var(--size-3);
+  --radius-4: var(--size-4);
+  --radius-5: var(--size-5);
+  --radius-max: 100000px;
+  --radius-smooth: var(--radius-1);
+  --radius-very-smooth: var(--radius-4);
 }
 
 .app {
