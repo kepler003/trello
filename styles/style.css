@@ -129,6 +129,11 @@ body {
 }
 
 .btn {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
   min-width: 20px;
   min-height: 20px;
   background-color: var(--gray-2);
@@ -142,4 +147,9 @@ body {
 .btn:focus {
   outline: none;
   background-color: var(--gray-3);
+}
+
+.btn i {
+  display: inline-flex;
+  justify-content: center;
 }
