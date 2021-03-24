@@ -35,6 +35,11 @@ body {
   --size-14: 51.2rem;
   --size-15: 64rem;
   --size-16: 76.8rem;
+  --size-very-small: var(--size-1);
+  --size-small: var(--size-3);
+  --size: var(--size-4);
+  --size-large: var(--size-5);
+  --size-very-large: var(--size-7);
   --primary-1: hsl(202, 100%, 98%);
   --primary-2: hsl(202, 95%, 93%);
   --primary-3: hsl(202, 93%, 84%);
