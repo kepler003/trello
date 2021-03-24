@@ -109,6 +109,8 @@ body {
   --radius-max: 100000px;
   --radius-smooth: var(--radius-1);
   --radius-very-smooth: var(--radius-4);
+
+  --btn-size: var(--size-6);
 }
 
 .app {
@@ -134,8 +136,8 @@ body {
   justify-content: center;
   align-items: center;
   align-content: center;
-  min-width: 20px;
-  min-height: 20px;
+  min-width: var(--btn-size);
+  min-height: var(--btn-size);
   background-color: var(--gray-2);
   border: none;
   border-radius: none;
