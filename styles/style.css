@@ -155,3 +155,8 @@ body {
   display: inline-flex;
   justify-content: center;
 }
+
+.btn--square {
+  width: var(--btn-size);
+  height: var(--btn-size);
+}
