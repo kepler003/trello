@@ -149,7 +149,7 @@ body {
   background-color: var(--gray-3);
 }
 
-.btn i {
+.btn i[class^="flaticon-"] {
   display: inline-flex;
   justify-content: center;
 }
