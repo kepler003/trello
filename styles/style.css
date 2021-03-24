@@ -16,7 +16,7 @@ body {
 }
 
 
-/* Project-related styles */
+/* Global variables */
 
 :root {
   --size-1: 0.4rem;
@@ -96,4 +96,11 @@ body {
   --shadow-3: 0 5px 15px hsla(0, 0%, 0%, .2);
   --shadow-4: 0 10px 24px hsla(0, 0%, 0%, .2);
   --shadow-5: 0 15px 35px hsla(0, 0%, 0%, .2);
+}
+
+.app {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  min-height: 100vh;
 }
