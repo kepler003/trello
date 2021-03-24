@@ -101,6 +101,16 @@ body {
 .app {
   display: flex;
   flex-flow: row wrap;
+  align-content: flex-start;
   width: 100%;
   min-height: 100vh;
+}
+
+.header {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  width: 100%;
+  min-height: 50px;
+  background-color: var(--gray-6);
 }
