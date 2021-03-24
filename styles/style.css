@@ -160,3 +160,7 @@ body {
   width: var(--btn-size);
   height: var(--btn-size);
 }
+
+.btn--smooth {
+  border-radius: var(--radius-smooth);
+}
