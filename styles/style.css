@@ -1,6 +1,7 @@
 
 @import "variables.css";
 @import "reset.css";
+@import "btn.css";
 
 /* Styling */
 
@@ -19,52 +20,4 @@
   width: 100%;
   min-height: 50px;
   background-color: var(--gray-6);
-}
-
-.btn {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  min-width: var(--btn-size);
-  min-height: var(--btn-size);
-  background-color: var(--gray-2);
-  border: none;
-  border-radius: none;
-  box-shadow: none;
-  transition: 150ms ease-in-out;
-}
-
-.btn:hover,
-.btn:focus {
-  outline: none;
-  background-color: var(--gray-3);
-}
-
-.btn i[class^="flaticon-"] {
-  display: inline-flex;
-  justify-content: center;
-}
-
-.btn--square {
-  width: var(--btn-size);
-  height: var(--btn-size);
-}
-
-.btn--smooth {
-  border-radius: var(--radius-smooth);
-}
-
-.btn--transparent {
-  background-color: transparent;
-}
-
-.btn--transparent:hover,
-.btn--transparent:focus {
-  background-color: hsla(0, 0%, 100%, 0.25);
-}
-
-.btn--color-light {
-  color: var(--white);
 }
