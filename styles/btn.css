@@ -46,6 +46,16 @@
   border-radius: var(--radius-max);
 }
 
+/* Spacing */
+
+.btn--margin-right {
+  margin-right: var(--size-2);
+}
+
+.btn--margin-left {
+  margin-right: var(--size-2);
+}
+
 /* Background color */
 
 .btn--transparent {
