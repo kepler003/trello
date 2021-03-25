@@ -1,4 +1,6 @@
 
+/* Default styles */
+
 .btn {
   display: flex;
   flex-flow: row wrap;
@@ -20,19 +22,31 @@
   background-color: var(--gray-3);
 }
 
+/* Icon */
+
 .btn i[class^="flaticon-"] {
   display: inline-flex;
   justify-content: center;
 }
+
+/* Shape (dimensions) */
 
 .btn--square {
   width: var(--btn-size);
   height: var(--btn-size);
 }
 
-.btn--smooth {
+/* Shape (corners) */
+
+.btn--rounded {
   border-radius: var(--radius-smooth);
 }
+
+.btn--circle {
+  border-radius: var(--radius-max);
+}
+
+/* Background color */
 
 .btn--transparent {
   background-color: transparent;
@@ -42,6 +56,8 @@
 .btn--transparent:focus {
   background-color: hsla(0, 0%, 100%, 0.25);
 }
+
+/* Font color */
 
 .btn--color-light {
   color: var(--white);
