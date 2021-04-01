@@ -99,3 +99,14 @@
 :root {
   --btn-square-size: var(--size-6);
 }
+
+/* 
+
+/// Breakpoints ///
+
+sm: 57.6rem;
+md: 76.8rem;
+lg: 99.2rem;
+xl: 120rem;
+
+*/
