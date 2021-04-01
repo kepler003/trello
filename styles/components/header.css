@@ -1,9 +1,16 @@
 
 .header {
   display: flex;
+  flex-flow: column nowrap;
+  width: 100%;
+}
+
+.header--mobile {
+  display: flex;
   flex-flow: row nowrap;
   align-items: center;
   width: 100%;
+  height: 100%;
   min-height: var(--size-7);
   padding: 0 var(--size-4) 0 var(--size-3);
   background-color: var(--gray-6);
