@@ -97,5 +97,5 @@
 /* Specific variables */
 
 :root {
-  --btn-size: var(--size-6);
+  --btn-square-size: var(--size-6);
 }

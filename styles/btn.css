@@ -32,8 +32,8 @@
 /* Shape (dimensions) */
 
 .btn--square {
-  width: var(--btn-size);
-  height: var(--btn-size);
+  width: var(--btn-square-size);
+  height: var(--btn-square-size);
 }
 
 /* Shape (corners) */
