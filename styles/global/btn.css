@@ -9,6 +9,7 @@
   align-content: center;
   min-width: var(--btn-size);
   min-height: var(--btn-size);
+  padding: var(--size-1) var(--size-2);
   background-color: var(--gray-2);
   border: none;
   border-radius: none;
@@ -28,6 +29,11 @@
   display: inline-flex;
   justify-content: center;
 }
+
+.btn i[class~="margin-right"] {
+  margin-right: var(--size-2);
+}
+
 
 /* Shape (dimensions) */
 
