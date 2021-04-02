@@ -74,7 +74,7 @@
 /* Font color */
 
 .btn--color-light {
-  color: var(--white);
+  color: var(--gray-1);
 }
 
 .btn--color-font {
