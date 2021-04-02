@@ -92,14 +92,7 @@
   --radius-max: 100000px;
   --radius-smooth: var(--radius-1);
   --radius-very-smooth: var(--radius-4);
-
   --font-color: var(--gray-7);
-}
-
-/* Specific variables */
-
-:root {
-  --btn-square-size: var(--size-6);
 }
 
 /* 

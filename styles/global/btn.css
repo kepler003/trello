@@ -1,4 +1,10 @@
 
+/* Variables */
+
+:root {
+  --btn-square-size: var(--size-6);
+}
+
 /* Default styles */
 
 .btn {
