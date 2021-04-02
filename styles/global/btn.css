@@ -67,8 +67,20 @@
   background-color: hsla(0, 0%, 100%, 0.25);
 }
 
+.btn--dark {
+  background-color: var(--gray-4);
+}
+
 /* Font color */
 
 .btn--color-light {
   color: var(--white);
+}
+
+.btn--color-font {
+  color: var(--font-color);
+}
+
+.btn--color-dark {
+  color: var(--black);
 }
