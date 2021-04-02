@@ -13,12 +13,14 @@
   justify-content: center;
   align-items: center;
   align-content: center;
-  min-width: var(--btn-size);
-  min-height: var(--btn-size);
-  padding: var(--size-1) var(--size-2);
-  background-color: var(--gray-2);
+  min-width: var(--btn-square-size);
+  min-height: var(--btn-square-size);
+  margin: var(--size-1);
+  padding: var(--size-2);
+  background-color: var(--gray-4);
+  color: var(--gray-1);
   border: none;
-  border-radius: none;
+  border-radius: var(--radius-smooth);
   box-shadow: none;
   transition: 150ms ease-in-out;
 }
@@ -40,19 +42,7 @@
   margin-right: var(--size-2);
 }
 
-
-/* Shape (dimensions) */
-
-.btn--square {
-  width: var(--btn-square-size);
-  height: var(--btn-square-size);
-}
-
 /* Shape (corners) */
-
-.btn--rounded {
-  border-radius: var(--radius-smooth);
-}
 
 .btn--circle {
   border-radius: var(--radius-max);
@@ -60,11 +50,11 @@
 
 /* Spacing */
 
-.btn--margin-right {
+.btn--mr {
   margin-right: var(--size-2);
 }
 
-.btn--margin-left {
+.btn--ml {
   margin-right: var(--size-2);
 }
 
@@ -79,15 +69,7 @@
   background-color: hsla(0, 0%, 100%, 0.25);
 }
 
-.btn--dark {
-  background-color: var(--gray-4);
-}
-
 /* Font color */
-
-.btn--color-light {
-  color: var(--gray-1);
-}
 
 .btn--color-font {
   color: var(--font-color);
