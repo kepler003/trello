@@ -38,24 +38,10 @@
   justify-content: center;
 }
 
-.btn i[class~="margin-right"] {
-  margin-right: var(--size-2);
-}
-
 /* Shape (corners) */
 
 .btn--circle {
   border-radius: var(--radius-max);
-}
-
-/* Spacing */
-
-.btn--mr {
-  margin-right: var(--size-2);
-}
-
-.btn--ml {
-  margin-right: var(--size-2);
 }
 
 /* Background color */
