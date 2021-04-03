@@ -27,6 +27,7 @@
 
 .btn:hover,
 .btn:focus {
+  cursor: pointer;
   outline: none;
   background-color: var(--gray-3);
 }
