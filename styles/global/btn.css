@@ -40,6 +40,15 @@
 
 /* Background color */
 
+.btn--success {
+  background-color: var(--success-5);
+}
+
+.btn--success:hover,
+.btn--success:focus {
+  background-color: var(--success-4);
+}
+
 .btn--transparent {
   background-color: transparent;
 }
