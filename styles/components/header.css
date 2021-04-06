@@ -43,4 +43,7 @@
     padding: var(--size-2);
     background-color: hsla(0, 0%, 0%, 0.2);
   }
+
+  .header__home-btn { display: none; }
+  .header__news-btn { display: none; }
 }
