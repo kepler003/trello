@@ -1,0 +1,19 @@
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--size-1);
+}
+
+.logo__icon {
+  margin-right: var(--size-2);
+  color: var(--gray-1);
+  height: var(--size-5);
+}
+
+.logo__text {
+  color: var(--gray-1);
+  font-weight: 700;
+  font-size: var(--size-5);
+}
