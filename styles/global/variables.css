@@ -99,9 +99,9 @@
 
 /// Breakpoints ///
 
-sm: 57.6rem;
-md: 76.8rem;
-lg: 99.2rem;
-xl: 120rem;
+sm: 576px;
+md: 768px;
+lg: 992px;
+xl: 1200px;
 
 */
