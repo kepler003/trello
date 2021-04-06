@@ -1,4 +1,6 @@
 
 i[class*="flaticon-"] {
+  display: inline-flex;
+  align-items: center;
   font-size: 1.6rem;
 }
