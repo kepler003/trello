@@ -46,5 +46,17 @@
 
   .header__home-btn { display: none; }
   .header__news-btn { display: none; }
+
+  .header__search {
+    margin-right: auto;
+  }
+
   .header__logo { display: none; }
+
+  .header__account-btn {
+    padding: 0;
+    width: var(--btn-square-size);
+    height: var(--btn-square-size);
+    overflow: hidden;
+  }
 }
