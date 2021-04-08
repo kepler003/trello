@@ -87,6 +87,7 @@
 }
 
 /* Tag */
+
 .btn__tag {
   padding: calc(var(--size-1) / 2) var(--size-2);
   font-size: var(--size-3);
