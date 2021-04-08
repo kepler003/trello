@@ -40,12 +40,20 @@
     width: 100%;
   }
 
-  .header__top-row {
+  .header__row--top {
     display: flex;
     flex-flow: row wrap;
     width: 100%;
     padding: var(--size-1);
-    background-color: hsla(0, 0%, 0%, 0.2);
+    background-color: hsla(0, 0%, 50%, 0.5);
+  }
+
+  .header__row--bottom {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    padding: var(--size-1);
+    background-color: hsla(0, 0%, 90%, 0.4);
   }
 
   .header__home-btn { display: none; }
@@ -99,7 +107,7 @@
 
 @media only screen and (min-width: 1200px) {
 
-  .header__top-row {
+  .header__row--top {
     justify-content: center;
     align-items: center;
   }
