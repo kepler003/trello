@@ -49,6 +49,16 @@
   background-color: var(--success-4);
 }
 
+.btn--light {
+  background-color: var(--gray-1);
+  color: var(--font-color);
+}
+
+.btn--light:hover,
+.btn--light:focus {
+  background-color: var(--gray-2);
+}
+
 .btn--transparent {
   background-color: transparent;
 }
