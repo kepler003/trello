@@ -1,8 +1,8 @@
 @import "variables.css";
 @import "reset.css";
-@import "font.css";
-@import "margin.css";
 @import "btn.css";
 @import "input.css";
-@import "icon.css";
 @import "image.css";
+@import "icon.css";
+@import "font.css";
+@import "margin.css";
