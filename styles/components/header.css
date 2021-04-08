@@ -24,6 +24,7 @@
   color: white;
 }
 
+/* screen size: sm */
 
 @media only screen and (min-width: 576px) {
 
@@ -61,6 +62,8 @@
   }
 }
 
+/* screen size: md */
+
 @media only screen and (min-width: 768px) {
 
   .header__home-btn { display: flex; }
@@ -75,6 +78,8 @@
   }
 }
 
+/* screen size: lg */
+
 @media only screen and (min-width: 992px) {
   
   .header__logo {
@@ -86,6 +91,8 @@
     margin-right: 0;
   }
 }
+
+/* screen size: xl */
 
 @media only screen and (min-width: 1200px) {
 
