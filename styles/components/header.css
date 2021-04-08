@@ -69,15 +69,22 @@
     margin-right: 0;
   }
 
-  .header__logo {
+  .header__news-btn {
     display: flex;
-    margin: 0 auto;
+    margin-right: auto;
   }
 }
 
 @media only screen and (min-width: 992px) {
   
-  .header__news-btn { display: flex; }
+  .header__logo {
+    display: flex;
+    margin: 0 auto;
+  }
+
+  .header__news-btn {
+    margin-right: 0;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
