@@ -6,3 +6,7 @@
 .margin--right {
   margin-right: var(--size-2);
 }
+
+.margin--left {
+  margin-left: var(--size-2);
+}
