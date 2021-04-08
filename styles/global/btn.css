@@ -5,7 +5,7 @@
   --btn-square-size: var(--size-6);
 }
 
-/* Default styles */
+/* Default styling */
 
 .btn {
   display: flex;
@@ -84,4 +84,17 @@
   font-size: 1.6rem;
   display: inline-flex;
   justify-content: center;
+}
+
+/* Tag */
+.btn__tag {
+  padding: calc(var(--size-1) / 2) var(--size-2);
+  font-size: var(--size-3);
+  background-color: var(--gray-2);
+  color: var(--font-color);
+  border-radius: var(--radius-max);
+}
+
+.btn__tag--post {
+  margin-left: var(--size-2);
 }
