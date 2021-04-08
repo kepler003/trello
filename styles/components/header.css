@@ -89,6 +89,10 @@
   .header__btn--invite {
     margin-right: auto;
   }
+
+  .header__btn--lg {
+    display: none;
+  }
 }
 
 /* screen size: md */
@@ -118,6 +122,10 @@
 
   .header__news-btn {
     margin-right: 0;
+  }
+
+  .header__btn--lg {
+    display: flex;
   }
 }
 
